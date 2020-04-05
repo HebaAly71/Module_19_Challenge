@@ -1,1 +1,6 @@
-# Module_19_Challenge
+# Module_19_Challenge:
+I used a deep learning model to predict whether or not an applicant will be successful if funded by Alphabet Soup using the features collected in the provided dataset. The model has one input layer with 29 neurons, two hidden layers, the first one with 8 neurons while the second has five neurons, and an output layers.
+
+I couldn't achieve the targeted accuracy of more than 75%, the highest, the model could reach was 53.38%.  In order to increase the accuracy of the model, I tried to add more hidden layers which didn't improve the accuracy significantly.  I also tried to change the input layers by removing some columns that I found irrelevant to our analysis, again this didn't improve the accuracy signifcantly.  It only increased the accuracy from 53.3% to 53.38%.
+
+The classification model that I can use other than the deep learning model is the rain forest model.  Running the rain forst model, it improved the accuracy of the model to 66.4%. Since we are dealing with tabular data, it is more efficient to use random forest model to predict the whether an applicant will be successful or no rather than deep learning model.  As it is shown, it is also more accurate.
